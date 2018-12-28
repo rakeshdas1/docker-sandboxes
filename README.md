@@ -1,6 +1,6 @@
 # Docker Sandboxes
 
-Varius docker compose sandbox for quick tooling
+Various docker compose sandbox for quick tooling
 
 Currently includes:
 - MariaDB
