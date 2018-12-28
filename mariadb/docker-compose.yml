@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+        db:
+                image: linuxserver/mariadb
+                container_name: mariadb
+                volumes:
+                        - './db_data:/config'
+                ports:
+                        - '3306:3306'
+                environment:
+                        - MYSQL_ROOT_PASSWORD=dbpass
+                        - PGID=1000
+                        - PUID=1000
+
